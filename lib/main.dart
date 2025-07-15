@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
-              Row(
+              Row( // 1 - 2
                 children: [
                   Expanded(
                     child: TextButton(
@@ -104,8 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               ),
-              // ... Other Rows for numbers 3-6
-              Row(
+              Row( // 3 - 4
                 children: [
                   Expanded(
                     child: TextButton(
@@ -131,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               ),
-              Row(
+              Row( // 5 - 6
                 children: [
                   Expanded(
                     child: TextButton(
